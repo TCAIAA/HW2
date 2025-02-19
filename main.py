@@ -40,7 +40,7 @@ def fetch_topic_info(topic):
         print(f"Something went wrong: {error}")
 
 # Main script execution
-if _name_ == "_main_":
+if __name__ == "__main__":
     while True:
         user_input = prompt_user()
         if user_input.strip().lower() == 'exit':
